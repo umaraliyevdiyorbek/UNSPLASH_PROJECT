@@ -1,0 +1,63 @@
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.search-item {
+  position: sticky;
+  top: 0;
+}
+.search-input {
+  width: 900px;
+  height: 50px;
+  border: 1px solid gray;
+  border-radius: 20px;
+}
+.filters {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 20px;
+}
+.btn-nature,
+.btn-birds,
+.btn-cats,
+.btn-shoes {
+  background-color: darkcyan;
+  color: white;
+  width: 50px;
+  height: 30px;
+  border: none;
+  border-radius: 7px;
+}
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 100px;
+  gap: 20px;
+}
+.image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 50px;
+  padding-bottom: 100px;
+}
+.buttons Button {
+  background-color: darkcyan;
+  color: white;
+  width: 90px;
+  height: 50px;
+  border: none;
+  border-radius: 7px;
+}
